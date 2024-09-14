@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hurma Zafar - Interactive Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume-container">
+        <header>
+            <h1>Hurma Zafar</h1>
+            <img src="Screenshot 2024-09-14 222347.png" alt="Profile Picture" class="profile-picture">
+            <p>Email: hurma.zafar20@gmail.com | Phone: +92 214019417</p>
+        </header>
+
+        <section id="education">
+            <h2>Education</h2>
+            <button class="toggle-btn" data-target="education-content">Toggle Education</button>
+            <div id="education-content" class="content">
+                <h3>Bahria University</h3>
+                <p>Degree: Bachelor of Science in Computer Science</p>
+                <p>Expected Graduation Year: 2026</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <button class="toggle-btn" data-target="skills-content">Toggle Skills</button>
+            <div id="skills-content" class="content">
+                <div class="skill-bar">
+                    <span class="skill-name">Java</span>
+                    <div class="bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                    <span class="skill-percent">75%</span>
+                </div>
+                <div class="skill-bar">
+                    <span class="skill-name">C++</span>
+                    <div class="bar">
+                        <div class="progress" style="width: 70%;"></div>
+                    </div>
+                    <span class="skill-percent">70%</span>
+                </div>
+                <div class="skill-bar">
+                    <span class="skill-name">HTML</span>
+                    <div class="bar">
+                        <div class="progress" style="width: 65%;"></div>
+                    </div>
+                    <span class="skill-percent">65%</span>
+                </div>
+                <div class="skill-bar">
+                    <span class="skill-name">CSS</span>
+                    <div class="bar">
+                        <div class="progress" style="width: 60%;"></div>
+                    </div>
+                    <span class="skill-percent">60%</span>
+                </div>
+                <div class="skill-bar">
+                    <span class="skill-name">JavaScript</span>
+                    <div class="bar">
+                        <div class="progress" style="width: 55%;"></div>
+                    </div>
+                    <span class="skill-percent">55%</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="work-experience">
+            <h2>Work Experience</h2>
+            <button class="toggle-btn" data-target="work-experience-content">Toggle Work Experience</button>
+            <div id="work-experience-content" class="content">
+                <p>No formal work experience yet. However, I am eager to gain professional experience and plan to actively pursue opportunities in the near future to apply and further develop my skills.</p>
+            </div>
+        </section>
+    </div>
+
+    <button id="theme-toggle">Toggle Theme</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
